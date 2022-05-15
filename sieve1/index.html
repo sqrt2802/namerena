@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh_Hans_CN" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>测号基础 - 名字竞技场百科</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\u6d4b\u53f7\u57fa\u7840";
+        var mkdocs_page_input_path = "sieve1.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> 名字竞技场百科
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="搜索文档" title="在此输入需要搜索的内容" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航栏">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">首页</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">入坑必读</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../intro/">新手入门</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">测号基础</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_2">实力评分</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">常用术语</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_4">特殊称呼</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_5">官方测号器</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../ladder/">天梯排名</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="移动导航栏">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">名字竞技场百科</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="文档"></a> &raquo;</li>
+          <li>入坑必读 &raquo;</li><li>测号基础</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="_1">测号基础</h1>
+<p>请阅读<strong>前面</strong>的<strong>所有</strong>内容后食用本篇教程。</p>
+<h2 id="_2">实力评分</h2>
+<p>要想评价名字的强弱，实力评分是最准确的办法。你可以对一个名字进行评分，也可以对多个名字组成的队伍进行评分。</p>
+<p>评分的原理是让名字和程序内置的对手战斗多次，计算胜率。强名字的胜率高，评分也就高。</p>
+<p>评分分为两类，<strong>普通评分</strong>和<strong>强化评分</strong>。强化评分时面对的对手更为强劲，名字的评分也会更低。</p>
+<p>测评分的方法：</p>
+<ol>
+<li>输入“!test!”，然后换行。</li>
+<li>如果想测强化评分，在第二行加“!”号，然后空一行。测普通评分不用输入“!”号，直接空行即可。</li>
+<li>输入你要测的名字，点击开始。</li>
+</ol>
+<p>这是<strong>综合评分</strong>的测试方法，它反映了名字打团战的能力。</p>
+<p>如果换行把名字再输入一遍，就可以测出<strong>单挑评分</strong>。这能表示名字1v1的实力。</p>
+<p>如果你输入多个不同的名字，测出的评分就是<strong>团队评分</strong>，代表这些名字组队后的战斗实力。</p>
+<p>下面是评分的输入格式模板。</p>
+<p>1.普通综合评分</p>
+<pre><code>!test!
+
+名字
+</code></pre>
+<p>2.强化综合评分</p>
+<pre><code>!test!
+!
+
+名字
+</code></pre>
+<p>3.普通单挑评分</p>
+<pre><code>!test!
+
+名字
+名字
+</code></pre>
+<p>4.强化单挑评分</p>
+<pre><code>!test!
+!
+
+名字
+名字
+</code></pre>
+<p>5.普通团队评分</p>
+<pre><code>!test!
+
+名字1
+名字2
+......
+</code></pre>
+<p>6.强化团队评分</p>
+<pre><code>!test!
+!
+
+名字1
+名字2
+......
+</code></pre>
+<p>评分进度达到10%和100%时，系统会给出评分。前者称为<strong>粗评</strong>，后者称为<strong>精评</strong>。</p>
+<h2 id="_3">常用术语</h2>
+<p>在筛选强名字前，我们需要知道名竞的常用术语。它们并不难记，甚至比正式称呼要简单。</p>
+<p><strong>号</strong> - 名字</p>
+<p><strong>测号</strong> - 筛选名字</p>
+<p><strong>手测</strong> - 手动测号</p>
+<p><strong>机测</strong> - 使用电脑程序测号</p>
+<p><strong>测号器</strong> - 测号用的电脑程序</p>
+<p><strong>强评</strong> - 强化综合评分，有时候也指强化团队评分</p>
+<p><strong>普评</strong> - 普通综合评分，有时候也指普通团队评分</p>
+<p><strong>强单</strong> - 强化单挑评分</p>
+<p><strong>普单</strong> - 普通单挑评分</p>
+<p><strong>一表</strong> - “一级表情”简称，指八围652~672的号。图片：<img alt="" src="https://s1.ax1x.com/2022/05/13/Or9co6.png" /></p>
+<p><strong>二表</strong> - “二级表情”简称，指八围672~692的号。图片：<img alt="" src="https://s1.ax1x.com/2022/05/13/OrplHx.png" /></p>
+<p><strong>三表</strong> - “三级表情”简称，指八围692以上的号。图片：<img alt="" src="https://s1.ax1x.com/2022/05/13/Or97wt.png" /></p>
+<p><strong>rp</strong> - “人品”简称，指测号运气。常用动词<strong>吸rp</strong>。</p>
+<p><strong>R大</strong> - 指作者Rinick。</p>
+<h2 id="_4">特殊称呼</h2>
+<p>这些是玩家们在交流中常用的术语，用于描述符合特定标准的名字。</p>
+<p>强评达到5000，称为<strong>天尊</strong>；达到5500，称为<strong>仙尊</strong>。</p>
+<p>强单达到5000，称为<strong>武圣</strong>；达到6000，称为<strong>武帝</strong>。</p>
+<p>普评达到7000，称为<strong>至尊</strong>。</p>
+<p>强评6000，强单7000，普评8000，普单9000，四项同时满足，称为<strong>四项全能</strong>号。</p>
+<h2 id="_5">官方测号器</h2>
+<p>游戏中内置的测号器，可以筛选出八围652以上的号。操作简易，适合新手入门，但速度极慢，格式单一，不适合大规模测号。</p>
+<p>使用方法：</p>
+<ol>
+<li>输入“!test!”并空一行。</li>
+<li>在第三行输入名字。名字由<strong>可变部分</strong>“???”和<strong>固定部分</strong>组成，如“您的第???个名字@我的战队”。在测试过程中，可变部分会被替换为000~999的数字。请注意，可变部分不能放在战队名中。</li>
+<li>点击开始键，程序会开始测试。八围在652以上的名字会自动显示出来（这可能需要几分钟）。在测试结束后，系统会给出提示。</li>
+</ol>
+<p>测试结果需要进一步评分，即“开箱”。通过开箱，你可以了解它们的具体实力，清除不符合要求的弱号。</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  用<a href="https://www.mkdocs.org/">MkDocs</a>构建，使用<a href="https://readthedocs.org">Read the Docs</a>提供的<a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>。
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="版本">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../intro/" style="color: #fcfcfc">&laquo; 上一张</a></span>
+    
+    
+      <span><a href="../ladder/" style="color: #fcfcfc">下一张 &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
